@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: $primary-color;
+  color: fff;
+  font-family: 'Press Start 2P', sans-serif;
   height: 100vh;
   margin: 0;
 }
@@ -13,7 +15,11 @@ body {
 #root {
   height: 100%;
   width: 100%;
-  @include center;
+  text-align: center;
   overflow: hidden;
   margin: 0;
+}
+
+.screen {
+  
 }
